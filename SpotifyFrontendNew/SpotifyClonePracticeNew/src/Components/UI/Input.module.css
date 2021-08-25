@@ -1,0 +1,39 @@
+.control {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.control label,
+.control input {
+  display: inline-block;
+}
+
+.control label {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.6rem;
+  font-size: 20px;
+}
+
+.control input {
+  width: 500px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  color: grey;
+  border: 1px solid darkgrey;
+}
+
+.control input:focus,
+.control input:hover {
+  border: 1px solid black;
+}
+
+.control.invalid input {
+  border-color: red;
+  background: #fbdada;
+}

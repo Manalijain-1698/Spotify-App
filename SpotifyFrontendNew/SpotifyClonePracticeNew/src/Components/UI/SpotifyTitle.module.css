@@ -1,0 +1,23 @@
+.spotifyLogo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 30px;
+  color: whitesmoke;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.spotifyLogo li {
+  float: left;
+}
+
+.spotifyLogo img {
+  height: 70px;
+  width: 90px;
+  margin-top: 15px;
+  margin-left: 1095px;
+  background-color: #333;
+}

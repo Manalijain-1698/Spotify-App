@@ -1,0 +1,54 @@
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 30px;
+  color: whitesmoke;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ li {
+  float: left;
+}
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+  li a:hover {
+  color: green;
+}
+
+  img {
+  height: 70px;
+  width: 90px;
+  margin-top: 15px;
+  margin-left: 500px;
+  background-color: #333;
+}
+
+.homeNavbar {
+  float: right;
+  margin-top: 25px;
+  margin-right: 450px;
+  font-size: 20px;
+}
+
+li Link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li Link:hover {
+  color:greenyellow;
+}

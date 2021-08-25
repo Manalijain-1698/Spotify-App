@@ -1,0 +1,22 @@
+.loginLink{
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.mainContainer a{
+    color:green;
+}
+
+.mainContainer a:hover{
+    color:yellowgreen;
+}
+
+.mainContainer .errorMessage{
+    color:red;
+    font-size:15px;
+}
+
+.mainContainer .successMessage{
+    color:green;
+    font-size: 15px;
+}
